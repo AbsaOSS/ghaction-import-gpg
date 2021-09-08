@@ -1,5 +1,5 @@
 # ghaction-import-gpg
-GitHub action to import GPG private key
+GitHub action to import GPG private key and output keyid and ascii armored version of a public part. Useful for terraform provider registry.
 
 **Note [5/6/2021]:** This was supposed to be a fork ([paultyng/ghaction-import-gpg](https://github.com/paultyng/ghaction-import-gpg)) of a fork ([crazy-max/ghaction-import-gpg](https://github.com/crazy-max/ghaction-import-gpg)) of the upstream repo. Due to the restrictions on using a sign-only key, we encountered this [issue](https://github.com/crazy-max/ghaction-import-gpg/issues/58). This is an internal action that overrides this fork until the issue is resolved upstream.
 ## Environment Variables
